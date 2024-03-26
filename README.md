@@ -4,6 +4,7 @@ Note: This notebook is designed to run in colab free tier gpu, I am limited by t
 
 ## Future
 - Document the code
+- Add video
 - Try using CSVLoader but first check if you can do it with langchain_community.vectorstores.chroma.Chroma functions (to avoid embed_query error)
 - Include persistent database to store chat history (SQL will do)
 - Try to use bigger models and loading them in lower precision using BitsandBytes or if the model provides that option
