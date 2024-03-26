@@ -1,9 +1,10 @@
 #  Research Paper Recommendation System Using Large Language Models
 
-Note: This notebook is designed to run in colab free tier gpu, I am limited by the technology( hardware and money ) of my time to use better embedding models, llm's, make it much more interactive by streamlit/fastapi/flask( Can't fit all these in a 6gb gpu :( ), containerizing in docker and deploying in ECS(AWS). You will find some techniques I've used here(some are dumb and can be optimised {See "Future"}) that are only seen in documentation and not in the countless blogs/Yt vids on this topic, all not to stick to conformity and to achieve a sense of fulfilling learning this topic.
+Note: This notebook is designed to run in colab free tier gpu, I am limited by the technology( hardware and money ) of my time to use better embedding models, llm's( Can't fit all these in a 6gb gpu :( ), containerizing in docker and deploying in ECS(AWS). You will find some techniques I've used here(some are dumb and can be optimised {See "Future"}) that are only seen in documentation and not in the countless blogs/Yt vids on this topic, all not to stick to conformity and to achieve a sense of fulfilling learning this topic.
 
 ## Future
 - Document the code
+- Make it much more interactive by streamlit/fastapi/flask in colab if possible
 - Add video
 - Try using CSVLoader but first check if you can do it with langchain_community.vectorstores.chroma.Chroma functions (to avoid embed_query error)
 - Include persistent database to store chat history (SQL will do)
