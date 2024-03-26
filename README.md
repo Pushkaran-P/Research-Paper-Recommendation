@@ -25,7 +25,7 @@ Note: This notebook is designed to run in colab free tier gpu, I am limited by t
 
 ### LLM
 - TF-IDF approach is bad cause, no semantic and syntactic relations + unigram + outdated
-- Enter the one topic people can't shut up about, Generative AI specifically Large Language Models.
+- Enter the one topic people can't stop talking about, Generative AI specifically Large Language Models.
 - I've used dolly-v2-3b as the llm engine ( Falcon 7B is another great option to run in free tier ), Chroma as the Vector Database, and bge-small-en-v1.5 as the vector embedding model. These are my personal preferences but pick your poision.
 - Alongside this I've also included to get context from previous conversations.
 
