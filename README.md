@@ -22,8 +22,8 @@ Note: This notebook is designed to run in colab free tier gpu, I am limited by t
 - Alongside this I've also included to get context from previous conversations.
 
 ## Questions
-- Why not use chromadb seperately? RAG with langchain expects the retreiver to have a embed_query() call, but when I tried chromadb seperately I found it does not have that call, maybe it works in other databases.
-- Why have you copy pasted direct code from langchain? Bad and confusing documentation by langchain and very few blogs to look into 
+- Why not use chromadb seperately? RAG with langchain expects the retreiver( db.as_retriever() ) to have a embed_query() call, but when I tried chromadb seperately I found it does not have that call, maybe it works in other databases.
+- Why have you copy pasted direct code from langchain? Bad and confusing documentation by langchain and very few blogs to look into this.
 
 ## Future
 - Try using CSVLoader but first check if you can do it with langchain_community.vectorstores.chroma.Chroma functions (to avoid embed_query error)
