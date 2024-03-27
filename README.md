@@ -4,12 +4,12 @@ Note: This notebook is designed to run in colab free tier gpu, I am limited by t
 
 ## Future
 - Document the code :heavy_check_mark:
-- Make it much more interactive by streamlit/fastapi/flask in colab if possible
+- Make it much more interactive by streamlit/fastapi/flask in colab if possible. Edit: Takes a lot of time for retreival :heavy_check_mark:
 - Add video
 - Try using CSVLoader but first check if you can do it with langchain_community.vectorstores.chroma.Chroma functions (to avoid embed_query error)
 - Include persistent database to store chat history (SQL will do)
 - Try to use bigger models and loading them in lower precision using BitsandBytes or if the model provides that option
-- Finetuning on said bigger model or dolly ( Use other notebook as reference)
+- Finetuning on said bigger model or dolly. Edit: Notebook crashes :heavy_check_mark:
 
 ## Task
 - Objective: The goal of this project is to develop a system that allows users to enter a particular topic and receive recommendations for research papers related to it. By web scraping from IEEE and other research paper websites, we aim to provide users with relevant and up-to-date research in their field of interest.
