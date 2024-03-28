@@ -1,9 +1,6 @@
 #  Research Paper Recommendation System Using Large Language Models
 
-
-
-https://github.com/Pushkaran-P/Research-Paper-Recommendation/assets/84492623/729d1395-7170-4a35-93de-34232d940f3d
-
+![chatbot](https://github.com/Pushkaran-P/Research-Paper-Recommendation/assets/84492623/2f034fbe-0ceb-483c-8081-1c60c0f8970c)
 
 Note: This notebook is designed to run in colab free tier gpu, I am limited by the technology( hardware and money ) of my time to use better embedding models, llm's( Can't fit all these in a 6gb gpu :( ), containerizing in docker and deploying in ECS(AWS). You will find some techniques I've used here(some are dumb and can be optimised {See "Future"}) that are only seen in documentation and not in the countless blogs/Yt vids on this topic, all not to stick to conformity and to achieve a sense of fulfilling learning this topic.
 
